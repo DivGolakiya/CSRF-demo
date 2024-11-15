@@ -20,5 +20,5 @@ If you want to transfer balance between user without using ```attack.html```, yo
 
 P.S.: if you use ```index.php``` to transfer balance, please enter ```admin``` or ```user1``` as Recipient only, otherwise it will deduce amount but will not add any amount to any users. I have not created validation for it.
 
-**For exercise 4.2 (b): countermeasure to CSRF attack**
+**Countermeasure to CSRF attack**
 1. Remove the comments from line no. 14 to 16 in ```transfer.php``` (PHP code file) and run the php code again same as before as you did to check CSRF attack but this time after pressing a ```Transfer Funds``` button on ```localhost:8000/attack.html``` page, it should redirect you to ```localhost:8000/transfer.php``` page, and it should show you **Unauthorized access or invalid CSRF token**.
